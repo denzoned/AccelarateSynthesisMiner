@@ -1,0 +1,6 @@
+numpy~=1.23.4
+pm4py~=2.5.2
+networkx~=2.8.8
+sympy~=1.11.1
+pandas~=1.5.2
+PuLP~=2.0
