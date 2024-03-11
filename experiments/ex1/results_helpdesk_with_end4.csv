@@ -1,0 +1,9 @@
+,t_add,prev,foll,skip,loop,net_trans,net_places,net_nodes,n_nets_found,n_nodes_used,time_finding_nets,time_conf_tran,f1_tran,precision_tran,fitness_tran
+3,Assign seriousness,"{'Start', 'Insert ticket'}","{'Resolve ticket', 'Wait', 'Take in charge ticket'}",True,True,14,12,26,25,8,0.08029991388320923,9.724185898900032,0.9631793000859603,0.9545928485269765,0.971921621944788
+0,Create SW anomaly,{'Take in charge ticket'},{'Resolve ticket'},True,False,13,12,25,10,6,0.04484561085700989,3.5700479298830032,0.9713385720183947,0.9711281500536977,0.9715490851904143
+4,Insert ticket,{'Start'},{'Assign seriousness'},True,False,12,11,23,4,3,0.0059569478034973145,1.3135678470134735,0.9623801330385631,0.9530166707801386,0.9719294144616407
+7,Require upgrade,{'Take in charge ticket'},{'Resolve ticket'},True,False,13,12,25,10,6,0.038670361042022705,3.8210359066724777,0.9713698234736573,0.971570860131635,0.9711688699951542
+1,Resolve ticket,"{'Assign seriousness', 'Require upgrade', 'Take in charge ticket', 'Create SW anomaly'}",{'Closed'},False,True,13,11,24,16,5,0.01599942147731781,5.925254017114639,0.9636026153101793,0.9510564988168874,0.9764841677070644
+2,Start,set(),"{'Insert ticket', 'Assign seriousness', 'Take in charge ticket'}",False,False,13,11,24,3,5,0.05954773724079132,1.1003109514713287,0.9623801330385631,0.9530166707801386,0.9719294144616407
+5,Take in charge ticket,"{'Assign seriousness', 'Start'}","{'Resolve ticket', 'Require upgrade', 'Create SW anomaly'}",True,True,13,10,23,10,6,0.01995016634464264,3.528759405016899,0.9764674181893176,0.9936240617685831,0.9598931965287703
+6,Wait,{'Assign seriousness'},set(),True,True,12,10,22,54,10,3.839437559247017,17.65507248044014,0.9830057016375674,0.9946258891946622,0.9716538952686965

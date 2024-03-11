@@ -1,0 +1,9 @@
+,t_add,prev,foll,skip,loop,net_trans,net_places,net_nodes,n_nets_found,n_nodes_used,time_finding_nets,time_conf_tran,f1_tran,precision_tran,fitness_tran
+6,O_Accepted,{'O_Returned'},{'End'},True,False,10,7,17,18,8,0.07151025533676147,14.47050803899765,0.971770052626826,0.9894105446854,0.9547475768329982
+5,O_Cancelled,"{'O_Sent (online only)', 'O_Returned', 'O_Created', 'O_Sent (mail and online)'}",{'End'},True,False,10,7,17,24,8,0.15488390624523163,20.063989803195,0.956377645253619,0.9190317098156081,0.9968873357033847
+0,O_Create Offer,set(),{'O_Created'},False,False,9,6,15,2,3,0.006643816828727722,1.5743359178304672,0.9499675089779759,0.9073394821331036,0.9967984376384175
+2,O_Created,{'O_Create Offer'},"{'O_Refused', 'O_Sent (online only)', 'O_Cancelled', 'O_Sent (mail and online)'}",False,False,9,6,15,2,4,0.00511564314365387,1.5971079766750336,0.9499675089779759,0.9073394821331036,0.9967984376384175
+7,O_Refused,"{'O_Sent (online only)', 'O_Created', 'O_Returned', 'O_Sent (mail and online)'}",{'End'},True,False,10,7,17,24,8,0.15193724632263184,19.977636069059372,0.9705014067112239,0.9938948922129723,0.9481838308058279
+4,O_Returned,"{'O_Sent (online only)', 'O_Sent (mail and online)'}","{'End', 'O_Cancelled', 'O_Accepted', 'O_Refused'}",True,False,9,7,16,12,8,0.01913924515247345,9.69276325404644,0.9781739046732898,1.0,0.9572802154367928
+1,O_Sent (mail and online),{'O_Created'},"{'End', 'O_Returned', 'O_Cancelled', 'O_Refused'}",True,False,10,7,17,10,6,0.019012704491615295,8.101808071136475,0.9499635181316701,0.9073394821331036,0.9967896496355934
+3,O_Sent (online only),{'O_Created'},"{'End', 'O_Returned', 'O_Cancelled', 'O_Refused'}",True,False,10,7,17,10,6,0.018605560064315796,8.018300607800484,0.9499673053509278,0.9073394821331036,0.9967979892415675

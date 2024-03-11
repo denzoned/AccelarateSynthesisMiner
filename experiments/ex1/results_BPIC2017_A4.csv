@@ -1,0 +1,11 @@
+,t_add,prev,foll,skip,loop,net_trans,net_places,net_nodes,n_nets_found,n_nodes_used,time_finding_nets,time_conf_tran,f1_tran,precision_tran,fitness_tran
+3,A_Accepted,{'A_Concept'},"{'A_Denied', 'A_Complete', 'A_Cancelled'}",False,False,10,8,18,2,3,0.005458414554595947,2.637766554951668,0.9729595772771844,0.9990457289718205,0.9482010348844717
+9,A_Cancelled,"{'A_Incomplete', 'A_Accepted', 'A_Complete', 'A_Validating'}",{'End'},True,False,11,9,20,22,8,0.14780853688716888,33.514798521995544,0.9729585276571903,0.9990457289718205,0.9481990411243686
+1,A_Complete,{'A_Accepted'},"{'A_Denied', 'End', 'A_Validating', 'A_Cancelled'}",True,False,10,8,18,8,4,0.016889408230781555,11.908988893032074,0.9729595772771844,0.9990457289718205,0.9482010348844717
+2,A_Concept,"{'A_Submitted', 'A_Create Application'}",{'A_Accepted'},False,False,10,8,18,2,3,0.005616694688796997,3.049991399049759,0.9729595772771844,0.9990457289718205,0.9482010348844717
+0,A_Create Application,set(),"{'A_Submitted', 'A_Concept'}",False,False,10,8,18,4,4,0.015416651964187622,5.601817756891251,0.9729595772771844,0.9990457289718205,0.9482010348844717
+8,A_Denied,"{'A_Complete', 'A_Accepted', 'A_Incomplete', 'A_Validating'}",{'End'},True,True,11,9,20,42,8,0.14387404918670654,69.30289596319199,0.9729591997322092,0.9990457289718205,0.9482003177348305
+6,A_Incomplete,{'A_Validating'},"{'End', 'A_Denied', 'A_Pending', 'A_Cancelled'}",True,True,11,9,20,4,5,0.002017959952354431,6.137584239244461,0.9776579049204263,0.9960951069054321,0.9598908253436612
+7,A_Pending,"{'A_Incomplete', 'A_Validating'}",{'End'},True,False,11,9,20,22,8,0.14806200563907623,38.03659223020077,0.9729578437075052,0.9990457289718205,0.9481977419596268
+4,A_Submitted,{'A_Create Application'},{'A_Concept'},True,False,10,8,18,4,3,0.005110263824462891,5.990778312087059,0.9828847747203548,0.9988446185505665,0.9674269322599187
+5,A_Validating,{'A_Complete'},"{'End', 'A_Denied', 'A_Incomplete', 'A_Pending', 'A_Cancelled'}",True,True,10,8,18,4,3,0.005993738770484924,0.40065596997737885,0.0,0.0,0.0
